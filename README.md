@@ -44,7 +44,7 @@
 
 BookBrother is the premier mobile audio experience to listen to your epub books. Don’t have time to read or need to be somewhere else? No problem, just upload your epub to the app and click play from your library to begin getting knowledge injected into your earbuds.
 
-Perhaps a demo?
+![readingNow]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -139,9 +139,8 @@ Refer to [this](https://github.com/rfp55-blue-ocean-blastoise/Blue-Ocean-Blastoi
 - We chose MongoDB to represent each document as a user with their own personal array of books and each book object will have a bookmark and the link to the EPUB file. The EPUB files are hosted in Amazon S3 on upload.
 - For authentication, we used Firebase to handle the  user credentials alongside React Context to update the current user's MongoDB document on update. Firebase methods are also used for session persistence to enable a logged-in state.
 
-
-
-
+![Design]
+![CSD]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -161,3 +160,6 @@ Project Link: [https://github.com/rfp55-blue-ocean-blastoise/Blue-Ocean-Blastois
 <!-- Images -->
 
 [book]: images/title.png
+[readingNow]: images/BookBrotherReadingNow.png
+[Design]: images/BookBrotherDesignStructure.png
+[CSD]: images/BookBrotherClientServerDatabase.png
